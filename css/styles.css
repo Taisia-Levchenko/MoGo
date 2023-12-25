@@ -19,7 +19,21 @@ body {
     background-color: var(--background);
     font-size:14px;
 }
-
+ul, h2, h3, h4, h5, p, button {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 5px solid red;
+}
+.header{
+    padding-bottom: 81px;
+    padding-top: 17px;
+    outline: 1px dotted blue;
+}
 .logo {
     color:var(--main-accent);
     font-size: 30px;
@@ -33,6 +47,10 @@ body {
     color:var(--hover);
 }
 
+.services-title {
+    margin-top: 20px;
+    margin-bottom: 109px;
+}
 .services-info, .team-info {
     color: var(--title);
     font-family: 'Kaushan Script', cursive;
@@ -53,6 +71,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     font-variant: small-caps;
+    margin-bottom: 20px;
 }
 .services-list-text {
     font-family: 'Roboto', sans-serif;
@@ -60,28 +79,41 @@ body {
     font-weight: 400;
     line-height: 1.47;
 }
-
+.team {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.team-info {
+    margin-bottom: 17px;
+}
+.team-title {
+    margin-bottom: 85px;
+}
 .team-desc {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    margin-bottom: 27px;
 }
 .team-list-name {
     color: var(--title);
-    text-align: center;
+    /* text-align: center; */
     font-weight: 400;
     font-size: 14px;
     font-variant: all-small-caps;
+    margin: 30px 0 11px;
 }
 .team-list-position {
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-style: italic;
     font-weight: 300;
 }
-
+.footer {
+    padding: 9px 0 10px;
+}
 .footer-info {
     color: var(--title);
     font-weight: 400;
@@ -115,4 +147,5 @@ body {
     line-height: normal;
     font-variant: all-small-caps;
     border: none;
+    padding: 12px 10px 11px;
 }
