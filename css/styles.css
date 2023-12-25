@@ -27,12 +27,12 @@ ul, h2, h3, h4, h5, p, button {
     width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 5px solid red;
+    /* outline: 5px solid red; */
 }
 .header{
     padding-bottom: 81px;
     padding-top: 17px;
-    outline: 1px dotted blue;
+    /* outline: 1px dotted blue; */
 }
 .logo {
     color:var(--main-accent);
