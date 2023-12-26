@@ -30,14 +30,20 @@ ul, h2, h3, h4, h5, p, button {
     /* outline: 5px solid red; */
 }
 .header{
-    padding-bottom: 81px;
-    padding-top: 17px;
+    padding: 17px 0;    
     /* outline: 1px dotted blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
     color:var(--main-accent);
     font-size: 30px;
     font-weight: 700;
+}
+.nav-list {
+    display: flex;
+    gap: 55px;
 }
 .nav-list-link {
     color: var(--main-accent);
@@ -47,10 +53,15 @@ ul, h2, h3, h4, h5, p, button {
     color:var(--hover);
 }
 
+
+.services {
+    padding: 63px 0;
+}
 .services-title {
     margin-top: 20px;
     margin-bottom: 109px;
 }
+
 .services-info, .team-info {
     color: var(--title);
     font-family: 'Kaushan Script', cursive;
@@ -66,6 +77,17 @@ ul, h2, h3, h4, h5, p, button {
     font-variant: all-small-caps;
     text-align: center;
 }
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 102px;
+    column-gap: 126px;
+    /* align-items:center;*/
+    justify-content: center;
+}
+.services-list-item {
+    width: 275px;
+}
 .services-list-title {
     color: var(--title);
     font-size: 14px;
@@ -80,8 +102,7 @@ ul, h2, h3, h4, h5, p, button {
     line-height: 1.47;
 }
 .team {
-    padding-top: 100px;
-    padding-bottom: 80px;
+    padding: 42px 0 80px;
 }
 .team-info {
     margin-bottom: 17px;
@@ -96,16 +117,23 @@ ul, h2, h3, h4, h5, p, button {
     font-weight: 400;
     margin-bottom: 27px;
 }
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+.team-list-item {
+    width: 380px;
+}
 .team-list-name {
     color: var(--title);
-    /* text-align: center; */
+    text-align: center;
     font-weight: 400;
     font-size: 14px;
     font-variant: all-small-caps;
     margin: 30px 0 11px;
 }
 .team-list-position {
-    /* text-align: center; */
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-style: italic;
@@ -113,6 +141,10 @@ ul, h2, h3, h4, h5, p, button {
 }
 .footer {
     padding: 9px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid;
 }
 .footer-info {
     color: var(--title);
