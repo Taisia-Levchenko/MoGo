@@ -48,6 +48,17 @@ ul, h2, h3, h4, h5, p, button {
 .nav-list-link {
     color: var(--main-accent);
     font-weight: 400;
+    position: relative;
+}
+.nav-list-link:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--hover);
+    position: absolute;
+    top: 30px;
+    left: 0;
 }
 .nav-list-link:hover {
     color:var(--hover);
@@ -59,9 +70,19 @@ ul, h2, h3, h4, h5, p, button {
 }
 .services-title {
     margin-top: 20px;
-    margin-bottom: 109px;
+    margin-bottom: 65px;
 }
-
+.services-title::after, .team-title::after {
+    content:"";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--hover);
+    margin: 0 auto;
+}
+.services-title::after {
+    margin-top: 40px;
+}
 .services-info, .team-info {
     color: var(--title);
     font-family: 'Kaushan Script', cursive;
@@ -108,7 +129,10 @@ ul, h2, h3, h4, h5, p, button {
     margin-bottom: 17px;
 }
 .team-title {
-    margin-bottom: 85px;
+    margin-bottom: 45px;
+}
+.team-title::after {
+    margin-top: 36px;
 }
 .team-desc {
     text-align: center;
