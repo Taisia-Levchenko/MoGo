@@ -1,0 +1,26 @@
+.services-info,
+.team-info {
+  color: getColor("title");
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+.services-title,
+.team-title {
+  color: getColor("title");
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  text-align: center;
+}
+.services::after,
+.team-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: getColor("hover");
+  margin: 0 auto;
+}

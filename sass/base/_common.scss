@@ -1,0 +1,15 @@
+body {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  line-height: normal;
+  color: getColor("text");
+  background-color: getColor("background");
+  font-size: 14px;
+}
+
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* outline: 5px solid red; */
+}

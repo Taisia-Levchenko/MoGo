@@ -1,0 +1,39 @@
+.services {
+  padding: 63px 0;
+  &-title {
+    margin-top: 20px;
+    margin-bottom: 65px;
+    &::after {
+      margin-top: 40px;
+    }
+  }
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 102px;
+  justify-content: center;
+  &__item {
+    display: flex;
+    gap: 20px;
+  }
+  &__icon {
+    fill: getColor("main-accent");
+  }
+  &__box {
+    max-width: 310px;
+  }
+  &__title {
+    color: getColor("title");
+    font-size: 14px;
+    font-weight: 400;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+  }
+  &__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.47;
+  }
+}
