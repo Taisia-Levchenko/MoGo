@@ -17,10 +17,10 @@
     color: getColor("main-accent");
     font-weight: 400;
     position: relative;
-  }
-  &:hover {
-    color: getColor("hover");
-    &::after {
+    &:hover {
+      color: getColor("hover");
+    }
+    &:hover::after {
       content: "";
       display: block;
       width: 100%;

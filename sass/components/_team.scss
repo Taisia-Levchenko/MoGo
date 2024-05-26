@@ -5,9 +5,9 @@
   }
   &-title {
     margin-bottom: 45px;
-    &::after {
-      margin-top: 36px;
-    }
+    // &::after {
+    //   margin-top: 36px;
+    // }
   }
   &-desc {
     text-align: center;
@@ -15,6 +15,7 @@
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 27px;
+    color: getColor("text");
   }
 }
 .team-list {
@@ -37,5 +38,6 @@
     font-size: 15px;
     font-style: italic;
     font-weight: 300;
+    color: getColor("text");
   }
 }
